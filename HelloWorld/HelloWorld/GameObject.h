@@ -12,9 +12,13 @@ class GameObject
 	Position pos;
 	char* shape;
 	Dimension dim;
-	Screen& screen;
+	Screen& screen; 
 
 public:
+	int mine = 10;
+	int flag = 0; // ±ê¹ß
+
+	GameObject();
 	GameObject(char shape, int x, int y, Screen& screen)
 		: pos(x, y), shape(nullptr), dim(1, 1), screen(screen)
 	{

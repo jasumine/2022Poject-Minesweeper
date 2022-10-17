@@ -29,7 +29,7 @@ public:
 
 	void clear()
 	{
-		memset(lines, ' ', sizeof(char) * (n_rows * n_cols) );	
+		memset(lines, '@', sizeof(char) * (n_rows * n_cols) );	
 	}
 
 	void draw(const Position& pos, char shape)

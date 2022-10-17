@@ -53,10 +53,34 @@ class Player :
 			pos.x++;
 			break;
 		case 'f':
-			// 깃발로 표시 바꾸는 함수
+			/* 
+			if(player.getPos() == '#')
+			{ 
+			// 이미 깃발이 표시되어있다면
+			flag --;  깃발 갯수 -1
+			mine ++; 남은 지뢰 갯수 +1
+			}
+			else // 깃발이 표시가 안되어 있다면
+			player.getPos() 에 "#" 표시
+			flag ++;
+			mine --;
+			*/
 			break;
 		case 'r':
-			// 주위 탐색 함수
+			/* 
+			클릭 후 주위 탐색 함수
+			if(player.getPos() == enemy.getPos() || '*')
+			{ // 지뢰를 클릭할 경우 게임 종료
+			Borland::GotoXY(1, 15);
+			cout << "GAME OVER" << endl;
+			exit(0);
+			}
+			else
+			{ // 지뢰가 아닌경우
+			주위의 지뢰 갯수를 노출
+			재귀함수
+			}
+			*/
 			break;
 		case 'q':
 			exit(0);
