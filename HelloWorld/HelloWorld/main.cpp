@@ -61,6 +61,7 @@ int main()
 
 		Borland::GotoXY(1, 18);
 		cout << "ÇöÀç ³²Àº Áö·ÚÀÇ °¹¼ö : " << gameObject.mine << endl;
-	
+
+	}
 	return 0;
 }
