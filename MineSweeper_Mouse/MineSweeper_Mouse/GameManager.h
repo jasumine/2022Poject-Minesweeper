@@ -49,7 +49,7 @@ public:
 		}
 	}
 
-	void getScreen()
+	void getScreen() // 화면을 보여주는 함수
 	{
 		for (int i = 0; i < 10; i++)
 		{

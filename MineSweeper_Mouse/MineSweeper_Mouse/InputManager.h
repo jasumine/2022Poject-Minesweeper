@@ -31,7 +31,7 @@ public:
 	void readEveryFrame() {
 		DWORD cNumRead = 0;
 
-		Borland::GotoXY(0, 25);
+		Borland::GotoXY(0, 0);
 		if (GetNumberOfConsoleInputEvents(hStdin, &cNumRead) == 0)
 		{
 			printf("Input Reading Failure %d\n", GetLastError());
